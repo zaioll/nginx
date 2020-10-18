@@ -1,6 +1,6 @@
-FROM zahaila/debian:stretch
+FROM zaioll/debian:stretch
 
-LABEL maintainer "Láyro Chrystofer <layrozahaila@gmail.com>"
+LABEL maintainer "Láyro Chrystofer <zaioll@protonmail.com>"
 
 RUN apt-get update && apt-get install -y nginx apache2-utils
 
