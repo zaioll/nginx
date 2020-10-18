@@ -2,7 +2,7 @@ FROM zaioll/debian:stretch
 
 LABEL maintainer "Láyro Chrystofer <zaioll@protonmail.com>"
 
-RUN apt-get update && apt-get install -y nginx apache2-utils
+RUN apt-get update && apt upgrade -y && apt-get install -y nginx apache2-utils
 
 RUN \
     mkdir -p /run/php \
